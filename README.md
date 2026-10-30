@@ -34,7 +34,6 @@ PostgreSQL, VS Code, and pgAdmin.
 - **B. Runner and Customer Experience:** Preparation time, delivery distance and speed, runner performance, and successful delivery rates.
 - **C. Ingredient Optimisation:** Standard recipes, popular extras and exclusions, and ingredient requirements.
 - **D. Pricing and Ratings:** Revenue, delivery costs, pricing scenarios, and customer ratings.
-- **E. Bonus DML Challenges:** Data manipulation and schema changes.
 
 ## 7. Repository Structure
 ```text
@@ -62,7 +61,7 @@ This repository contains my SQL practice and analysis based on the original case
 
 ## 9. Business questions & Queries
 
-### -- Section A: Pizza Metrics
+### **A. Pizza Metrics:** Order volume, pizza preferences, customer ordering patterns, and ordering frequency.
 
 ```sql
 
@@ -185,3 +184,7 @@ ORDER BY EXTRACT(ISODOW FROM order_time);
     
 ```
 <img width="399" height="157" alt="image" src="https://github.com/user-attachments/assets/38149830-7da4-4de8-b451-f2219a993359" />
+
+### **B. Runner and Customer Experience:** Preparation time, delivery distance and speed, runner performance, and successful delivery rates.
+### **C. Ingredient Optimisation:** Standard recipes, popular extras and exclusions, and ingredient requirements.
+### **D. Pricing and Ratings:** Revenue, delivery costs, pricing scenarios, and customer ratings.
